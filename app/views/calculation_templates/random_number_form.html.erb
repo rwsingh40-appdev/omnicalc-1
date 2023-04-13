@@ -1,19 +1,27 @@
-<h1>my random number form</h1>
 
 
+<head>
 
-<form action="/random/results">
+</head>
+
+<body>
+  
+  <h1>my random number form</h1>
+
+  <form action="/random/results">
     <label for="min_number">
-    Minimum
+      Minimum
     </label>
-    <input id="min_number" type="text" placeholder="E.g. 1.5" number="user_min">
-  <br>
+    <input id="min_number" type="text" placeholder="E.g. 1.5" name="user_min">
+    <br>
     <label for="max_number">
-    Maximum
+      Maximum
     </label>
-    <input id="max_number" type="text" placeholder="E.g. 4.5" number="user_max">
-  <br>
+    <input type="max_number" type="text" placeholder="E.g. 4.5" name="user_max">
+    <br>
     <button>
       Pick random number
     </button>
-</form>
+  </form>
+
+</body>
